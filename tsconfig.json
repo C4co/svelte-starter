@@ -25,7 +25,17 @@
 		"paths": {
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"]
-		}
+		},
 	},
-	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
+	"types": [
+		"node",
+		"cypress"
+	],
+	"include": [
+		"src/**/*.d.ts", 
+		"src/**/*.js", 
+		"src/**/*.ts", 
+		"cypress/**/*.ts", 
+		"src/**/*.svelte"
+	]
 }
