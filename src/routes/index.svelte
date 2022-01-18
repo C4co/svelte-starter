@@ -1,5 +1,5 @@
-<main>
-	<h1 class="font-bold text-2xl text-red-600">
-		This is a simple way to working with these elements
+<main class="w-full min-h-screen flex justify-center items-center">
+	<h1 class="text-2xl">
+		Svelte Starter
 	</h1>
 </main>
