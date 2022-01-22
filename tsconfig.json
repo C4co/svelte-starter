@@ -24,7 +24,16 @@
 		"checkJs": true,
 		"paths": {
 			"$lib": ["src/lib"],
-			"$lib/*": ["src/lib/*"]
+			"$lib/*": ["src/lib/*"],
+			"@/components": [
+				"src/components/index"
+			],
+			"@/assets": [
+				"src/assets/index"
+			],
+			"@/utils": [
+				"src/utils/index"
+			],
 		},
 	},
 	"types": [
