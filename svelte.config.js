@@ -19,7 +19,8 @@ const config = {
 				alias: {
 					'@/components': resolve('./src/components/index.ts'),
 					'@/assets': resolve('./src/assets/index.ts'),
-					'@/utils': resolve('./src/utils/index.ts')
+					'@/utils': resolve('./src/utils/index.ts'),
+					'@/types': resolve('./src/utils/index.ts')
 				}
 			}
 		}
