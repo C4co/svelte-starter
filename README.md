@@ -9,7 +9,7 @@
 
 ### Resources
 
-- [Vercel](htpp://https://vercel.com)
+- [Vercel](https://vercel.com)
 - [Favicon](https://www.favicon-generator.org)
 - [Fonts Source](https://fontsource.org)
 
