@@ -1,2 +1,1 @@
-export { default as Welcome } from './welcome.svelte'
-
+export { default as Welcome } from './Welcome/Welcome.svelte'
