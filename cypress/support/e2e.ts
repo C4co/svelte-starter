@@ -1,7 +1,5 @@
-
-  
 // ***********************************************************
-// This example support/index.js is processed and
+// This example support/e2e.ts is processed and
 // loaded automatically before your test files.
 //
 // This is a great place to put global configuration and
@@ -20,16 +18,3 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-
-declare global {
-  namespace Cypress {
-    interface Chainable {
-      responsive(action: () => void): Chainable<Element>
-      desktop(action: () => void): Chainable<Element>
-      tablet(action: () => void): Chainable<Element>
-      mobile(action: () => void): Chainable<Element>
-    }
-  }
-}
-
-export { }

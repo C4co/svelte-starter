@@ -1,5 +1,6 @@
+/// <reference types="cypress" />
 // ***********************************************
-// This example commands.js shows you how to
+// This example commands.ts shows you how to
 // create various custom commands and overwrite
 // existing commands.
 //
@@ -23,37 +24,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
-Cypress.Commands.add('desktop', (action: () => void) => {
-  // Macbook 13
-  cy.viewport(1280, 800)
-  action()
-})
-
-Cypress.Commands.add('tablet', (action: () => void) => {
-  // Ipad 2 
-  cy.viewport(768, 1024)
-  action()
-})
-
-Cypress.Commands.add('mobile', (action: () => void) => {
-  // Iphone 6+ 
-  cy.viewport(414, 736)
-  action()
-})
-
-Cypress.Commands.add('responsive', (action: () => void) => {
-  // Macbook 13
-  cy.viewport(1280, 800)
-  action()
-
-  // Ipad 2 
-  cy.viewport(768, 1024)
-  action()
-
-  // Iphone 6+ 
-  cy.viewport(414, 736)
-  action()
-})
-
-export { }
+//
+// declare global {
+//   namespace Cypress {
+//     interface Chainable {
+//       login(email: string, password: string): Chainable<void>
+//       drag(subject: string, options?: Partial<TypeOptions>): Chainable<Element>
+//       dismiss(subject: string, options?: Partial<TypeOptions>): Chainable<Element>
+//       visit(originalFn: CommandOriginalFn, url: string, options: Partial<VisitOptions>): Chainable<Element>
+//     }
+//   }
+// }
