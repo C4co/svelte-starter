@@ -1,3 +1,1 @@
-export const ASSETS = {
-
-}
+export const ASSETS = {}
