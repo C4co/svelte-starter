@@ -6,3 +6,9 @@ node_modules
 .env
 .env.*
 !.env.example
+debug.log
+
+# cypress
+cypress/videos
+cypress/screenshots
+cypress/downloads
