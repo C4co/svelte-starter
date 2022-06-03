@@ -1,5 +1,7 @@
 # Svelte Starter
 
+[![Svelte Starter CI](https://github.com/C4co/svelte-starter/actions/workflows/node.js.yml/badge.svg)](https://github.com/C4co/svelte-starter/actions/workflows/node.js.yml)
+
 ### What's inside?
 
 - [Svelte](https://svelte.dev)
